@@ -10,8 +10,11 @@
       src="https://kit.fontawesome.com/806a2db4d8.js"
       crossorigin="anonymous"
     ></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./js/index.js"></script>
   </head>
   <body>
+    <!-- Header -->
     <nav>
       <div class="header">
         <h1><a href="#" class="logo">L O G O</a></h1>
@@ -20,7 +23,7 @@
             <li><a href="#home">Home</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#skills">Skills</a></li>
-            <li><a href="#blog">Blog</a></li>
+            <li><a href="#portfolio">portfolio</a></li>
           </ul>
         </div>
         <div class="links" id="social-links">
@@ -43,7 +46,8 @@
       <div class="circle3"></div>
     </nav>
 
-    <section class="container">
+    <!-- Home -->
+    <section class="container" id="home">
       <section class="home">
         <div class="desc">
           <h3>Helllo<span>_</span></h3>
@@ -61,21 +65,87 @@
           </div>
         </div>
       </section>
-
       <section class="home2">
         <div class="circle">
           <img
             class="me"
-            src="https://inf3cti0n95.github.io/img/sanky.svg"
+            src="./img/WhatsApp Image 2023-04-28 at 09.33.53.jpeg"
             alt=""
             srcset=""
           />
+          <!-- <img
+            class="me"
+            src="https://inf3cti0n95.github.io/img/sanky.svg"
+            alt=""
+            srcset=""
+          /> -->
         </div>
       </section>
     </section>
 
-    <section class="container">
-      <div class="about"></div>
+    <!-- About -->
+    <section class="container" id="about">
+      <section class="about">
+        <div class="img-about">
+          <img src="./img/website-banner_topo.png" alt="" srcset="">
+        </div>
+      </section>
+      <section class="about2">
+        <div class="circle4"></div> 
+        <div class="text-about">
+          <h1>About me</h1>
+          <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat eveniet cum, autem voluptatum maiores dolore? Magni recusandae quaerat officia, hic inventore veritatis. Cum quisquam necessitatibus natus assumenda explicabo debitis sapiente?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis laborum quis quia nostrum sunt quod earum doloremque, eum fugiat? Error velit delectus rerum porro laudantium aliquam, nisi ab. Obcaecati, harum?</P>
+        </div>
+      </section>
+    </section>
+
+    <!-- Skills -->
+    <section class="container" id="skills">
+      <section class="skills">
+        <div class="circle5"></div>
+        <div class="text-skills">
+          <h1>My skills</h1>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam id dolor ex aperiam soluta, similique, repellat facilis laborum, velit quas eos odio illum iure nesciunt iusto. Inventore ab praesentium modi.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, exercitationem voluptas amet excepturi nobis quam? Quos, expedita eligendi dolorum aperiam amet, impedit voluptatem voluptatum, ab dolorem ullam quibusdam nostrum unde?
+          </p>
+        </div>
+      </section>
+      <section class="skills2">
+        <div class="img-skills">
+          <ul class="my-skills">
+            <li><i class="fa-brands fa-html5" style="color: #ff5722;"></i></i></li>
+            <li><i class="fa-brands fa-css3-alt" style="color: #0070ba;"></i></li>
+            <li><i class="fa-brands fa-square-js" style="color: #e5a228;"></i></li>
+            <li><i class="fa-brands fa-vuejs" style="color: #3fb27f;"></i></li>
+            <li><i class="fa-brands fa-php" style="color: #4d588e;"></i></li>
+            <li><i class="fa-brands fa-laravel" style="color: #f71b04;"></i></li>
+          </ul>
+        </div>
+      </section>
+    </section>
+
+    <!-- Portolio -->
+    <section class="container" id="portfolio">
+      <section class="portfolio">
+        <div class="portfolio-images" id="carousel">
+          <img src="./img/Screenshot_2.png" alt="" srcset="">
+          <img src="./img/Screenshot_2.png" alt="" srcset="">
+          <img src="./img/Screenshot_2.png" alt="" srcset="">
+          <img src="./img/Screenshot_2.png" alt="" srcset="">
+        </div>
+        <div class="portfolio-buttons">
+          <button id="prev"><i class="fa-sharp fa-solid fa-arrow-left"></i></button>
+          <button id="next"><i class="fa-sharp fa-solid fa-arrow-right"></i></button>
+        </div> 
+      </section>
+      <section class="portfolio2">
+        <div class="text-portfolio">
+          <h1>Portfolio</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel commodi minima enim vero obcaecati laudantium, reprehenderit, odit impedit hic voluptatibus rem eum pariatur. Quos tempore, vel atque odio eveniet amet.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati ipsum tempore ratione consequatur numquam, eius asperiores quia magnam atque laboriosam repudiandae explicabo dicta blanditiis, maiores deserunt eveniet rem esse molestias?
+          </p>
+       </div>
+      </section>
     </section>
   </body>
 </html>
