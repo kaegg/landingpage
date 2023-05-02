@@ -4,12 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Portfolio</title>
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="./css/style.css" />
-    <script
-      src="https://kit.fontawesome.com/806a2db4d8.js"
-      crossorigin="anonymous"
-    ></script>
+    <script src="https://kit.fontawesome.com/806a2db4d8.js" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="./js/index.js"></script>
   </head>
@@ -58,7 +56,7 @@
             provident, dolore, mollitia vitae animi, repellendus quaerat impedit
             illum perspiciatis quam veniam id incidunt!
           </p>
-          <div class="circle2"></div>
+          <div class="circle2 bouncing"></div>
           <div class="button-desc">
             <button>Download CV</button>
             <button>Hire Me</button>
@@ -67,12 +65,7 @@
       </section>
       <section class="home2">
         <div class="circle">
-          <img
-            class="me"
-            src="./img/WhatsApp Image 2023-04-28 at 09.33.53.jpeg"
-            alt=""
-            srcset=""
-          />
+          <img class="me" src="./img/WhatsApp Image 2023-04-28 at 09.33.53.jpeg" alt="" srcset="" />
           <!-- <img
             class="me"
             src="https://inf3cti0n95.github.io/img/sanky.svg"
@@ -91,10 +84,11 @@
         </div>
       </section>
       <section class="about2">
-        <div class="circle4"></div> 
+        <div class="circle4 bouncing"></div> 
         <div class="text-about">
           <h1>About me</h1>
-          <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat eveniet cum, autem voluptatum maiores dolore? Magni recusandae quaerat officia, hic inventore veritatis. Cum quisquam necessitatibus natus assumenda explicabo debitis sapiente?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis laborum quis quia nostrum sunt quod earum doloremque, eum fugiat? Error velit delectus rerum porro laudantium aliquam, nisi ab. Obcaecati, harum?</P>
+          <P>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat eveniet cum, autem voluptatum maiores dolore? Magni recusandae quaerat officia, hic inventore veritatis. Cum quisquam necessitatibus natus assumenda explicabo debitis sapiente?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis laborum quis quia nostrum sunt quod earum doloremque, eum fugiat? Error velit delectus rerum porro laudantium aliquam, nisi ab. Obcaecati, harum?</P>
         </div>
       </section>
     </section>
@@ -102,10 +96,11 @@
     <!-- Skills -->
     <section class="container" id="skills">
       <section class="skills">
-        <div class="circle5"></div>
+        <div class="circle5 bouncing"></div>
         <div class="text-skills">
           <h1>My skills</h1>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam id dolor ex aperiam soluta, similique, repellat facilis laborum, velit quas eos odio illum iure nesciunt iusto. Inventore ab praesentium modi.
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam id dolor ex aperiam soluta, similique, repellat facilis laborum, velit quas eos odio illum iure nesciunt iusto. Inventore ab praesentium modi.
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, exercitationem voluptas amet excepturi nobis quam? Quos, expedita eligendi dolorum aperiam amet, impedit voluptatem voluptatum, ab dolorem ullam quibusdam nostrum unde?
           </p>
         </div>
@@ -128,10 +123,10 @@
     <section class="container" id="portfolio">
       <section class="portfolio">
         <div class="portfolio-images" id="carousel">
-          <img src="./img/Screenshot_2.png" alt="" srcset="">
-          <img src="./img/Screenshot_2.png" alt="" srcset="">
-          <img src="./img/Screenshot_2.png" alt="" srcset="">
-          <img src="./img/Screenshot_2.png" alt="" srcset="">
+          <img id="1" class="carousel-selected image-carousel" src="./img/Screenshot_2.png" alt="" srcset="">
+          <img id="2" class="image-carousel" src="./img/Screenshot_2.png" alt="" srcset="">
+          <img id="3" class="image-carousel" src="./img/Screenshot_2.png" alt="" srcset="">
+          <img id="4" class="image-carousel" src="./img/Screenshot_2.png" alt="" srcset="">
         </div>
         <div class="portfolio-buttons">
           <button id="prev"><i class="fa-sharp fa-solid fa-arrow-left"></i></button>
@@ -139,6 +134,7 @@
         </div> 
       </section>
       <section class="portfolio2">
+        <div class="circle4 bouncing"></div> 
         <div class="text-portfolio">
           <h1>Portfolio</h1>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel commodi minima enim vero obcaecati laudantium, reprehenderit, odit impedit hic voluptatibus rem eum pariatur. Quos tempore, vel atque odio eveniet amet.
@@ -147,5 +143,10 @@
        </div>
       </section>
     </section>
+
+    <!-- footer -->
   </body>
+  <footer>
+    &copy;2023 Portfolio
+  </footer>
 </html>
